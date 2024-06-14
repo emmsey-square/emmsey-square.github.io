@@ -1,0 +1,16 @@
+body { 
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #FFFDD0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header { 
+    border: 8px double; 
+    border-color: darksalmon;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30;
+    text-align: center;
+}
+
