@@ -1,0 +1,94 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(21, 24, 36);
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+div {
+    margin: auto;
+}
+
+footer {
+    margin-top: 20px;
+    margin: auto;
+    background-color: rgb(15, 40, 87);
+    color:#ddd;
+}
+
+.projects {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    align-items: auto;
+}
+
+.main_heading {
+    color:white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.about_me {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 90%;
+}
+
+.completed, .inprogress, .future {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.interests {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.enquiry, .contact_card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    max-width: 90%;
+}
+
+.blog_posts {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: auto;
+}
+
+.message_box {
+    max-height: 100px;
+}
