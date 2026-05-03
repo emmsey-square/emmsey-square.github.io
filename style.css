@@ -92,4 +92,5 @@ footer {
 
 .message_box {
     max-height: 100px;
+    max-width: 100px;
 }
