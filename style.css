@@ -71,7 +71,17 @@ footer {
     align-items: auto;
 }
 
-.enquiry, .contact_card {
+.enquiry {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 400px;
+    height: 350px;
+    max-width: 90%;
+}
+
+.contact_card {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -80,6 +90,7 @@ footer {
     height: 200px;
     max-width: 90%;
 }
+
 
 .blog_posts {
     background-color: white;
