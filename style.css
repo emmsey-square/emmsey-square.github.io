@@ -27,13 +27,6 @@ footer {
     align-items: start;
 }
 
-.container2 {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 10px;
-    align-items: auto;
-}
-
 .main_heading {
     color:white;
     border: 1px solid #ddd;
@@ -70,6 +63,12 @@ footer {
     max-width: 400px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.container2 {
+    display: grid;
+    gap: 10px;
+    align-items: auto;
 }
 
 .enquiry, .contact_card {
