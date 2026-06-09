@@ -45,7 +45,7 @@ footer {
     max-width: 90%;
 }
 
-.completed, .inprogress, .future {
+.completed, .inprogress, .future, .interests {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -54,7 +54,7 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
 }
-
+/*
 .interests {
     background-color: white;
     border: 1px solid #ddd;
@@ -64,7 +64,7 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
 }
-
+*/
 .container2 {
     display: grid;
     gap: 10px;
